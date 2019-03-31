@@ -10,13 +10,13 @@ route(path: "/about-page") {
     
     ... on Post {
       title
-    	content
+      content
       post_specific_field
     }
     
     ... on Page {
       title
-    	content
+      content
       page_specific_field
     }
   } 
