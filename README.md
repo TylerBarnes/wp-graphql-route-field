@@ -2,8 +2,6 @@
 
 This plugin adds a `route` field to WP GraphQL to get post data via URL path.
 
-URL rewrites for custom post types are respected because this plugin gets data by path, not uri.
-
 Usage:
 
 ```graphql
@@ -37,4 +35,17 @@ Returns:
     }
   }
 }
+```
+
+## URL Rewrites
+
+URL rewrites for custom post types are respected because this plugin gets data by path, not uri.
+TeamMember is a custom post type called "team_members" which is rewritten to "team" and has a WP GraphQL singular name of TeamMember.
+```graphql
+route(path: "/team/tyler/") {
+    ... on TeamMember {
+      title
+      content
+    }
+  }
 ```
