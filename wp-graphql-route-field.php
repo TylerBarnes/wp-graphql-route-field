@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: WPGraphQL Route Field
- * Description: A WPGraphQL extension to get routes by URL path
+ * Plugin Name: WP GraphQL Route Field
+ * Description: A WP GraphQL extension to get routes by URL path
  * Author: Tyler <tylerdbarnes@gmail.com>
  * Author URI: tylerbarnes.ca
  *
