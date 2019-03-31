@@ -49,3 +49,5 @@ route(path: "/team/tyler/") {
     }
   }
 ```
+
+Feel free to add slashes to the path at the beginning and end or leave them out. `/team/tyler/`, `/team/tyler`, `team/tyler` all work.
