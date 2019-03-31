@@ -1,0 +1,8 @@
+{
+    "require-dev": {
+        "10up/phpcs-composer": "dev-master"
+    },
+    "require": {
+        "squizlabs/php_codesniffer": "*"
+    }
+}
