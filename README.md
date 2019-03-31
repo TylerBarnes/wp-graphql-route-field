@@ -1,6 +1,8 @@
 # wp-graphql-route-field
 
-This plugin adds a `route` field to WP GraphQL.
+This plugin adds a `route` field to WP GraphQL to get post data via URL path.
+
+URL rewrites for custom post types are respected because this plugin gets data by path, not uri.
 
 Usage:
 
